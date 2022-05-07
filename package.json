@@ -14,5 +14,7 @@
     "nuxt": "^2.14.0",
     "vue-ionicons": "^3.0.5"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxt/types": "~2.14.0"
+  }
 }

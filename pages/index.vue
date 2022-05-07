@@ -4,7 +4,7 @@
       <b-img
         :src="avatar"
         id="avatar-img"
-        alt="Asaolu Elijah Memoji"
+        alt="Puneeth Chanda Memoji"
         @mouseenter="changeAvatar"
         @mouseleave="changeAvatar"
       />
@@ -101,23 +101,23 @@ export default {
   },
 
   head: {
-    title: "Portfolio ⚡ - Asaolu Elijah",
+    title: "Portfolio ⚡ - Puneeth Chanda",
     meta: [
       {
         hid: "description",
         name: "description",
         content:
-          "Asaolu Elijah is an awesome front-end developer and technical writer, passionate about building solutions that works across multiple platforms with high accessibility approach. Elijah has vast knowledge in web development with over 3+ years experience in building actual products"
+          "Puneeth Chanda is an awesome front-end developer and technical writer, passionate about building solutions that works across multiple platforms with high accessibility approach. Elijah has vast knowledge in web development with over 3+ years experience in building actual products"
       },
       {
         hid: "og:title",
         name: "og:title",
-        content: "Portfolio ⚡ - Asaolu Elijah"
+        content: "Portfolio ⚡ - Puneeth Chanda"
       },
       {
         property: "og:description",
         content:
-          "Asaolu Elijah is an awesome front-end developer and technical writer, passionate about building solutions that works across multiple platforms with high accessibility approach. Elijah has vast knowledge in web development with over 3+ years experience in building actual products"
+          "Puneeth Chanda is an awesome front-end developer and technical writer, passionate about building solutions that works across multiple platforms with high accessibility approach. Elijah has vast knowledge in web development with over 3+ years experience in building actual products"
       },
       {
         hid: "og:image",
