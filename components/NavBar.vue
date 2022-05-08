@@ -1,7 +1,7 @@
 <template>
   <b-navbar toggleable="lg" fixed="top" type="light" variant="light">
     <b-navbar-brand tag="h1" to="/" style="font-weight: bolder;"
-      >> AE.</b-navbar-brand
+      >> PC.</b-navbar-brand
     >
     <b-navbar-toggle
       target="nav-collapse"
@@ -22,7 +22,7 @@
           class="moon-icon"
           title="Toggle Darkmode"
         >
-          <SunnyIcon style="color: #eee;font-size: 20px;" />
+          <SunnyIcon style="color: orange;font-size: 20px;" />
         </b-nav-item>
         <b-nav-item
           href="#"

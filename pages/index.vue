@@ -13,15 +13,13 @@
     <b-col md="8">
       <h2 class="intro animate__animated animate__fadeInUp animate__fast">
         Hi 👋,
-        <br />I<span>'m Asaolu&nbsp;Elijah</span>.
+        <br />I<span>'m Puneeth&nbsp;Chanda</span>.
       </h2>
 
       <div class="col-md-10 info">
-        A <b>front-end developer</b> and <b>technical writer</b> passionate
-        about solving problems with tech.<br />
-        I am skilled with building exceptional <b>websites</b> and
-        <b>mobile applications</b>, and currently i'm exploring the AI
-        (Artificial Intelligence) ecosystem.
+        A <b>Software developer</b> passionate
+        about solving real-life problems with tech.<br />
+        Currently i'm exploring the cloud ecosystem.
         <br />
         <b-button
           class="action-btn animate__animated animate__wobble animate__delay-4s animate__fast"
@@ -90,11 +88,10 @@ export default {
       avatar: require("@/assets/avatar-1.webp"),
       // ADD YOUR SOCIAL LINKS HERE 👇
       socialLinks: {
-        github: "http://github.com/asaoluelijah",
-        linkedin: "https://www.linkedin.com/in/asaoluelijah/",
-        twitter: "https://twitter.com/asaolu_elijah",
-        facebook: "https://facebook.com/asaoluelijah01",
-        mail: "mailto:info4a.elijah@gmail.com",
+        github: "http://github.com/puneeth2001",
+        linkedin: "https://www.linkedin.com/in/puneeth-chanda-2001/",
+        twitter: "https://twitter.com/ChandaPuneeth",
+        mail: "mailto:chandapuneeth@gmail.com",
         youtube: ""
       }
     };

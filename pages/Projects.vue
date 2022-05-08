@@ -17,13 +17,8 @@
           </h2>
           <b-card class="mt-3 mb-3 text-left text-dark">
             <p>{{ project.description }}</p>
-            <b-link :href="project.link"
-              >Check it out! <LinkIcon style="color: #000;"
-            /></b-link>
-            <hr />
-            <b-link :href="project.github_url"
-              >View source code <GithubIcon style="color: #000;"
-            /></b-link>
+            <b-card :href="project.link"
+              >{{ project.tech }}</b-card>
           </b-card>
         </div>
       </div>
@@ -43,31 +38,31 @@ export default {
     return {
       projects: [
         {
-          title: "Say-It",
-          tag: "Progressive Web App",
+          title: "rmvAds",
+          tag: "Script",
           description:
-            "Typing sucks, say the words instead and the text will be generated for you.",
+            "A simple way to avoid listening to Spotify ads for non-premium users using Spotify API.",
           image_cover: require("@/assets/speak.jpg"),
           github_url: "https://github.com/AsaoluElijah/say-it/",
-          link: "https://asaoluelijah.github.io/say-it"
+          tech: "Python, Spotify API"
         },
         {
-          title: "Proton",
-          tag: "Chrome-Extention, Coming Soon!",
+          title: "OCR",
+          tag: "Freelance",
           description:
-            "Proton charges you with positivity when you open a new chrome tab, plus you also get worldwide latest info.",
+            "Scans the video or image in real-time in front of a camera and checks if what is needed is present it sends a message",
           image_cover: require("@/assets/illustration.jpg"),
           github_url: "",
-          link: ""
+          tech: "Python, google-cloud-vision"
         },
         {
-          title: "Qr-Generator",
-          tag: "Progressive Web App",
+          title: "Schedule Bot",
+          tag: "bot",
           description:
-            "Easily share secret messages with friends by converting text to qrcode.",
+            "This bot sends the respective schedule for the day fetched from the database and send it to the user using Telegram API.",
           image_cover: require("@/assets/qr-1.png"),
           github_url: "https://github.com/AsaoluElijah/qrcode",
-          link: "https://asaoluelijah.github.io/qrcode/"
+          tech: "Python, GraphQl, Telegram API"
         }
       ],
     };
